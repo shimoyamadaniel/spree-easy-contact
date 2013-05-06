@@ -1,4 +1,4 @@
-class ContactsController < Spree::BaseController
+class Spree::ContactsController < Spree::BaseController
   before_filter :load_topics
   
   def new

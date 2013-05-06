@@ -1,8 +1,5 @@
 <%- locals = {:f => f} %>
 
-<%= render "shared/error_messages", :target => f.object %>
-
-<%= hook :admin_topic_form, locals do %>
 
   <%= f.field_container :name do %>
     <%= f.label :name, t("name") %> <span class="required">*</span><br />
@@ -16,4 +13,3 @@
     <%= f.error_message_on :email %>
   <% end %>
 
-<% end %>

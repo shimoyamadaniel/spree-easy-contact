@@ -1,4 +1,4 @@
-class Spree::Admin::ContactsController < Admin::BaseController
+class Spree::Admin::ContactsController < Spree::Admin::BaseController
   resource_controller
   
 end
